@@ -1,0 +1,48 @@
+/* src/components/Profile.css */
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1; /* Asegura que el contenido use el espacio disponible dentro de la tarjeta */
+}
+
+.profile-item {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  margin-right: 15px;
+  margin-top: 10px;
+  color: #ffffff; /* Color blanco para los iconos */
+  font-size: 30px; /* Tamaño original de los iconos */
+}
+
+.download-link {
+  color: #ffffff; /* Color del texto del botón */
+  text-decoration: none;
+  border: 1px solid #ffffff; /* Borde blanco */
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #ff4500; /* Color de fondo al hacer hover */
+  color: #ffffff; /* Color de texto blanco al hacer hover */
+}
+
+.copy-button {
+  background: none;
+  border: none;
+  color: #ffffff; /* Color blanco para el icono del botón */
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px; /* Tamaño del icono del botón al tamaño original */
+  transition: color 0.3s ease;
+}
+
+.copy-button:hover {
+  color: #ff4500; /* Color de icono al hacer hover */
+}
